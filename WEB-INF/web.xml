@@ -1,0 +1,24 @@
+<web-app>
+<!-- Assignment 2 -->
+    <servlet>
+        <servlet-name>assign</servlet-name>
+        <servlet-class>p1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>assign</servlet-name>
+        <url-pattern>/assignment</url-pattern>
+    </servlet-mapping>
+
+<!-- Activity -->
+    <servlet>
+        <servlet-name>Rank</servlet-name>
+        <servlet-class>p2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Rank</servlet-name>
+        <url-pattern>/Student</url-pattern>
+    </servlet-mapping>
+
+</web-app>
